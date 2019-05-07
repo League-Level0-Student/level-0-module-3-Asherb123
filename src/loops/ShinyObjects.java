@@ -17,10 +17,13 @@ public class ShinyObjects {
 		String S=JOptionPane.showInputDialog("How many thingys do you want");
 		// 3. Play the sound that many times
 		int A=Integer.parseInt(S);
-		if
+		
+		for (int i = 0; i < A; i++) {
+			playMisterZee();
+		}
 		
 		// 1. Call the method below
-		playMisterZee();
+	
 	}
 
 	public static void playMisterZee() {
